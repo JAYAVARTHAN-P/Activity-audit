@@ -1,12 +1,17 @@
-# Exp Auditing Cloud Activity Using AWS CloudTrail
+# EX - 4 Auditing Cloud Activity Using AWS CloudTrail
+
 ## Aim
+
 To enable and analyze AWS CloudTrail logs to audit user and resource activities in a cloud environment.
+
 ## Requirements
 1. AWS Console access
 2. CloudTrail service enabled
 3. S3 bucket (for storing logs)
 4. IAM permissions to view audit logs
+
 ## Procedure
+
 ### Step 1: Enable CloudTrail
 Go to CloudTrail from AWS Console
 Click Trails > Create trail
@@ -31,16 +36,9 @@ Filter events by:
 Use the Download CSV option to export logs
 Analyze logs in Excel/Sheets for reporting
 
-
 ## Output:
 
-```
-Name - JAYAVARTHAN P
-Reg No. - 212222100015
-```
-
 ![AWS-CloudTrail-PCI-Req-10-Login-Activity](https://github.com/user-attachments/assets/8953eee6-bb40-43d0-81c6-88da6444b349)
-
 
 ## Result
 
